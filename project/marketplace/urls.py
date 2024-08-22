@@ -1,9 +1,9 @@
 from django.urls import path
 
-from .views import ProductListAPIView, ProductAPIView
+from .views import product_list, product_detail
 
 app_name = 'marketplace'
 urlpatterns = [
-	path('products/', ProductListAPIView.as_view(), name='product-list-create'),
-    path('products/<int:pk>/', ProductAPIView.as_view(), name='product-detail'),
+	path('products/', product_list, name='product-list-create'),
+    path('products/<int:pk>/', product_detail, name='product-detail'),
 ]
