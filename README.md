@@ -119,19 +119,24 @@ DELETE /api/products/{id}/
 ```
 project/
 ├── project/
+│   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
-│   ├── ...
 ├── marketplace/
 │   ├── migrations/
+│   ├── apps.py
 │   ├── models.py
-│   ├── views.py
+│   ├── serializers.py
 │   ├── urls.py
+│   ├── views.py
 ├── authorization/
+│   ├── migrations/
+│   ├── apps.py
 │   ├── models.py
-│   ├── views.py
+│   ├── serializers.py
 │   ├── urls.py
+│   ├── views.py
 └── manage.py
 requirements.txt
 ```
