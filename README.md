@@ -18,7 +18,7 @@
 1. **Клонируйте репозиторий:**
 
    ```bash
-   git clone https://github.com/twe1n/marketplace.git
+   git clone https://github.com/twe1n/django-marketplace.git
    cd marketplace
    ```
 
